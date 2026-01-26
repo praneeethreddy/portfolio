@@ -20,38 +20,32 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and have been passionate about
-              building intelligent systems ever since. Over the years, I have
-              gained extensive experience in software development, with a strong
-              focus on Python and AI technologies... <br />
-              <br />I am proficient in
+              I fell in love with programming and started my career. Since then,
+              I have gained extensive experience in software development. <br />
+              <br />I am fluent in programming languages like
               <i>
                 <b className="purple">
                   {" "}
-                  Python and its AI/ML ecosystem, including frameworks and
-                  libraries such as PyTorch, TensorFlow, Hugging Face
-                  Transformers, LangChain,TypeScript, Javascript, ReactJS, Java
-                  and Spring Boot.{" "}
+                  TypeScript, Javascript, ReactJS, Java and Spring Boot.{" "}
                 </b>
               </i>
               <br />
               <br />
-              My core interest lies in designing and developing AI-driven
-              applications, especially those leveraging Generative AI and large
-              language models to solve real-world problems.
+              My field of Interest in building new application which included
+              Frontend and Backend Technologies.
               <br />
               <br />
-              Whenever possible, I combine my skills in{" "}
-              <b className="purple">Python</b> and
+              Whenever possible, I also apply my passion for developing products
+              with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
                   {" "}
-                   modern AI frameworks to build innovative, scalable.
+                  Modern Javascript Library and Frameworks
                 </b>
               </i>
-              &nbsp; and
+              &nbsp; like
               <i>
-                <b className="purple"> production-ready AI solutions </b>
+                <b className="purple"> React.js </b>
               </i>
             </p>
           </Col>
