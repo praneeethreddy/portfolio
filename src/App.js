@@ -10,7 +10,11 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
+<<<<<<< HEAD
   Navigate,
+=======
+  Navigate
+>>>>>>> 15490506cd7b410a9997d68607cd30f07cd63c5b
 } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
@@ -39,7 +43,11 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+<<<<<<< HEAD
           <Route path="*" element={<Navigate to="/" />} />
+=======
+          <Route path="*" element={<Navigate to="/"/>} />
+>>>>>>> 15490506cd7b410a9997d68607cd30f07cd63c5b
         </Routes>
         <Footer />
       </div>

@@ -20,6 +20,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
+<<<<<<< HEAD
               I fell in love with programming and started my career. Since then,
               I have gained extensive experience in software development. <br />
               <br />I am fluent in programming languages like
@@ -33,6 +34,16 @@ function Home2() {
               <br />
               My field of Interest in building new application which included
               Frontend and Backend Technologies.
+=======
+I fell in love with programming and started my career. Since then, I have gained extensive experience in software development.              <br />
+              <br />I am fluent in programming languages like
+              <i>
+                <b className="purple"> TypeScript, Javascript, ReactJS, Java and Spring Boot.  </b>
+              </i>
+              <br />
+              <br />
+              My field of Interest in building new application which included Frontend and Backend Technologies.
+>>>>>>> 15490506cd7b410a9997d68607cd30f07cd63c5b
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
@@ -59,7 +70,11 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>Social Media</h1>
             <p>
+<<<<<<< HEAD
               Please Connect Me at
+=======
+              Please Connect Me at 
+>>>>>>> 15490506cd7b410a9997d68607cd30f07cd63c5b
               {/* <span className="purple">connect </span> */}
             </p>
             <ul className="home-about-social-links">
