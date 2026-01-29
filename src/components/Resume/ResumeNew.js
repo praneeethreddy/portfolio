@@ -9,7 +9,6 @@ import { pdfjs } from "react-pdf";
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-
 function ResumeNew() {
   const [width, setWidth] = useState(window.innerWidth);
    const [numPages, setNumPages] = useState();
@@ -24,7 +23,7 @@ function onDocumentLoadSuccess(numPages){
   }, []);
 
   return (
-    <Container fluid className="resume-section" style={{height:'100vh'}}>
+    <Container fluid className="resume-section" style={{ height: "100vh" }}>
       <Particle />
       <Row style={{ justifyContent: "center", position: "relative" }}>
         <Button
@@ -40,10 +39,10 @@ function onDocumentLoadSuccess(numPages){
 
       {/* <Row className="resume d-flex justify-content-center">
         <Col md={8}>
-          <PDFViewer>         
+          <PDFViewer>
             <Document file={pdf} className="d-flex justify-content-center resume-doc" loading={ <><h1>hello</h1></>}  >
             <Page size='A4' pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-           
+
             </Document>
           </PDFViewer>
 
@@ -54,3 +53,6 @@ function onDocumentLoadSuccess(numPages){
 }
 
 export default ResumeNew;
+
+
+

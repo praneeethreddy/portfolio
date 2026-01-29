@@ -1,13 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import myImg from "../../Assets/avatar.svg";
-import myImg from "../../Assets/photo.jpg"
+import myImg from "../../Assets/photo.jpg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -20,44 +15,30 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-<<<<<<< HEAD
-              I fell in love with programming and started my career. Since then,
-              I have gained extensive experience in software development. <br />
-              <br />I am fluent in programming languages like
-              <i>
-                <b className="purple">
-                  {" "}
-                  TypeScript, Javascript, ReactJS, Java and Spring Boot.{" "}
-                </b>
-              </i>
+              I’m a Generative AI Engineer passionate about building
+              intelligent, scalable systems that solve real-world problems.
               <br />
               <br />
-              My field of Interest in building new application which included
-              Frontend and Backend Technologies.
-=======
-I fell in love with programming and started my career. Since then, I have gained extensive experience in software development.              <br />
-              <br />I am fluent in programming languages like
-              <i>
-                <b className="purple"> TypeScript, Javascript, ReactJS, Java and Spring Boot.  </b>
-              </i>
+              My work focuses on designing and deploying end-to-end AI
+              solutions—from data pipelines and model training to
+              production-grade Gen AI applications using
+              <b className="purple">
+                {" "}
+                LangChain, LLM APIs (OpenAI, Azure), Hugging Face, and vector
+                databases like Pinecone
+              </b>
+              .
+              <br />
+              <br />I leverage cloud-native services across{" "}
+              <b className="purple">AWS, Azure, and GCP</b> to automate ETL
+              workflows, deploy ML models, and build secure, observable AI
+              systems with CI/CD and containerization (Docker/Kubernetes).
               <br />
               <br />
-              My field of Interest in building new application which included Frontend and Backend Technologies.
->>>>>>> 15490506cd7b410a9997d68607cd30f07cd63c5b
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js </b>
-              </i>
+              While I have full-stack experience, my current focus is on
+              optimizing backend AI infrastructure, improving semantic search,
+              automating document intelligence, and enabling teams to ship
+              reliable, scalable generative AI products faster.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -66,57 +47,31 @@ I fell in love with programming and started my career. Since then, I have gained
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>Social Media</h1>
-            <p>
-<<<<<<< HEAD
-              Please Connect Me at
-=======
-              Please Connect Me at 
->>>>>>> 15490506cd7b410a9997d68607cd30f07cd63c5b
-              {/* <span className="purple">connect </span> */}
-            </p>
+            <p>Please connect with me at:</p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://github.com/praneeethreddy"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="url"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/reddypraneeth07/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
-              <li className="social-icons">
-                {/* <a
-                  href="url"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a> */}
               </li>
             </ul>
           </Col>
@@ -125,4 +80,5 @@ I fell in love with programming and started my career. Since then, I have gained
     </Container>
   );
 }
+
 export default Home2;

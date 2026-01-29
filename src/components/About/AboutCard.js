@@ -8,18 +8,39 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
+            I’m <span className="purple">Praneeth Reddy</span>, a Generative AI
+            Engineer at <span className="purple">Toyota</span>, where I design
+            and deploy intelligent systems that bridge cutting-edge AI research
+            with real-world impact.
+            <br />
+            <br />I hold a Master’s in Computer Science from the{" "}
+            <span className="purple">University of Central Missouri</span>, and
+            I specialize in building scalable Gen AI applications using
+            LangChain, LLMs, cloud-native services (AWS/Azure/GCP), and MLOps
+            best practices.
+            <br />
+            <br />
+            Beyond engineering, I’m passionate about capturing moments through
+            photography, sharing insights via technical writing, and exploring
+            new cultures through travel.
+          </p>
+
+          <p style={{ color: "rgb(155 126 172)", marginTop: "1.2rem" }}>
+            “Mistakes make you stronger—but learning from them makes you
+            exceptional.”
+          </p>
+          <footer className="blockquote-footer">— Praneeth Reddy</footer>
+        </blockquote>
+      </Card.Body>
+      {/* <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Praneeth Reddy </span>
-<<<<<<< HEAD
-             <span className="purple"></span>
-            <br />
-            I am currently employed as a Gen AI developer at <span className="purple"> Toyota.</span>
-=======
-            from <span className="purple"> Seattle, Washington.</span>
-            <br />
-            I am currently employed as a software developer at <span className="purple"> Arvest Bank.</span>
->>>>>>> 15490506cd7b410a9997d68607cd30f07cd63c5b
-            <br />
-            I have completed Master's in Computer Science at <span className="purple"> University of Central Missouri, </span>MO.
+            <span className="purple"></span>
+            <br />I am currently employed as a Gen AI developer at{" "}
+            <span className="purple"> Toyota.</span>
+            <br />I have completed Master's in Computer Science at{" "}
+            <span className="purple"> University of Central Missouri, </span>MO.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -41,7 +62,7 @@ function AboutCard() {
           </p>
           <footer className="blockquote-footer">Praneeth Reddy</footer>
         </blockquote>
-      </Card.Body>
+      </Card.Body> */}
     </Card>
   );
 }
